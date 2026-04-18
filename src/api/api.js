@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://localhost:7250/api', // Đảm bảo đúng Port Backend của bạn
+  //baseURL: 'https://localhost:7250/api', // Đảm bảo đúng Port Backend của bạn
+    baseURL:'http://tranzz-001-site1.ktempurl.com/api',
   timeout: 10000, // Đợi tối đa 10s để tránh lỗi Timeout
 });
 
